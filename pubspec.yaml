@@ -1,0 +1,117 @@
+name: bpdb_gis_app
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  awesome_snackbar_content: ^0.0.8
+  fluttertoast: ^8.2.1
+  intl: ^0.18.1
+  get_storage: ^2.0.3
+  carousel_slider: ^5.0.0
+  fl_chart: ^0.66.0
+  http: ^1.4.0
+  connectivity_plus: ^6.1.4
+  permission_handler: ^12.0.0+1
+  webview_flutter: ^4.7.0
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^10.1.0
+  firebase_core: ^4.3.0
+  firebase_database: ^12.1.1
+  cloud_firestore: ^6.1.1
+  flutter_map_marker_cluster: ^1.4.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+  
+  
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/appicon.png"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/carousel/
+    - assets/images/android-drawer.jpg
+    - assets/images/android-drawer-bg.jpg
+    - assets/images/bpdb_logo.png
+    - assets/images/profile_avater.png
+    - assets/icons/
+    - assets/icons/rhd-icon.png
+    - android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+    - assets/lang/bangla.png
+    - assets/lang/english.png
+    - assets/icons/substation.png
+    - assets/icons/feederline.png
+    - assets/icons/feederline_2.png
+    - assets/icons/region_menu.png
+    - assets/icons/worldwide.png
+    - assets/icons/pole.png
+    - assets/icons/view_profile.png
+    - assets/icons/profile_main.png
+    - assets/icons/profile_settings.png
+    - assets/icons/profile_summary.png
+    - assets/icons/transformer.png
+    - assets/icons/power-line.png
+    - assets/map_legend/chattogram.png
+    - assets/map_legend/cumilla.png
+    - assets/map_legend/mymensingh.png
+    - assets/map_legend/sylhet.png
+    - assets/map_legend/zone.png
+    - assets/map_legend/circle.png
+    - assets/map_legend/snd.png
+    - assets/map_legend/esu.png
+    - assets/map_legend/feederline_0.4k.png
+    - assets/map_legend/feederline_11k.png
+    - assets/map_legend/feederline_33k.png
+    - assets/map_legend/pole.png
+    - assets/map_legend/consumers.png
+    - assets/map_legend/consumer_serviceline.png
+    - assets/map_legend/dt.png
+    - assets/map_legend/substation_map.png
+    - assets/map_legend/new_substation.png
+    - assets/map_legend/common_pole.png
+    - assets/map_legend/lt_pole.png
+    - assets/map_legend/pole_11kv.png
+    - assets/map_legend/pole_33kv.png
+    - assets/map_legend/service_point.png
+    - assets/images/new_icons/new_drawer.png
+    - assets/images/new_icons/transmission-tower.png
+    - assets/images/new_icons/new_consumer.png
+    - assets/images/new_icons/new_substation.png
+    - assets/images/new_icons/down_arrow.png
+    - assets/images/new_icons/up_arrow.png
+    - assets/images/new_icons/zone-removebg.png
+
+  fonts:
+    - family: Exo2
+      fonts:
+        - asset: assets/fonts/Exo2-Regular.ttf
+        - asset: assets/fonts/Exo2-Bold.ttf
+        - asset: assets/fonts/Exo2-Italic.ttf
+        - asset: assets/fonts/Exo2-Light.ttf
+        - asset: assets/fonts/Exo2-Thin.ttf
+    - family: NotoSansBengali
+      fonts:
+        - asset: assets/fonts/bangla_fonts/NotoSansBengali-Regular.ttf
+        - asset: assets/fonts/bangla_fonts/NotoSansBengali-Bold.ttf
+          weight: 700

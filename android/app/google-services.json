@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "744096167156",
+    "project_id": "bpdb-5231d",
+    "storage_bucket": "bpdb-5231d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744096167156:android:5728b1303617bf44fcdaa1",
+        "android_client_info": {
+          "package_name": "com.cegis.bpdb_gis_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUImwHSonxZ50-2TfrGPAaZ8ZD3rVvmFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744096167156:android:febadfd4f5606030fcdaa1",
+        "android_client_info": {
+          "package_name": "com.example.bpdb_gis_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUImwHSonxZ50-2TfrGPAaZ8ZD3rVvmFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
